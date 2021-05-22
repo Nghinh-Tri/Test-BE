@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 namespace ESMS.BackendAPI.Controllers
 {
     [EnableCors("MyPolicy")]
+
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
